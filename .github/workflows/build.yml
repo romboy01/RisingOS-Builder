@@ -3,11 +3,11 @@ name: RisingOS Builder
 on:
   workflow_dispatch:
     inputs:
-      BRAND:
-        description: 'Put your device manufacturer name please.'
+      BRAND: POCO F5
+        description: 'RomBoy.'
         required: true
       CODENAME:
-        description: 'Put your device codename please.'
+        description: 'Marble.'
         required: true
       SIGNING:
         description: 'The build signing. Set to "normal" by default.'
